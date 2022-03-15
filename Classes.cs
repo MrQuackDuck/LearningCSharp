@@ -16,7 +16,7 @@ namespace CSharpConstructions
             var vasya = new Cat("Вася", -2);
             vasya.showAge();
 
-            Console.WriteLine(Cat.energy); // Show readonly static field
+            Console.WriteLine(Cat.maxEnergy); // Show readonly static field
         }
     }
 
@@ -26,7 +26,7 @@ namespace CSharpConstructions
         private string name;
         private int age = 1;
         private double foodCount;
-        public static readonly int energy = 100;
+        public static readonly int maxEnergy = 100;
 
 
         public Cat(string catName) => name = catName;
