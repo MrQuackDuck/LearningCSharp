@@ -31,8 +31,9 @@ namespace CSharpConstructions
 
         public Cat(string catName) => name = catName;
 
+        // Constructors
         public Cat() { }
-        public Cat(string name, int age = 1) // Constructor
+        public Cat(string name, int age = 1)
         {
             this.name = name;
             checkAge(age);

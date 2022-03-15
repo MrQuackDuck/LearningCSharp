@@ -10,7 +10,7 @@ namespace CSharpConstructions
     {
         public void Start()
         {
-             
+            Console.WriteLine("Test");
         }
     }
 }
